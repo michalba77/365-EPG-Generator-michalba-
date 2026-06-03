@@ -1,0 +1,54 @@
+v3.01.1 michalba(03.06.2026)
+Odstraneny nefunkcni grabery. Opraveno Magio.
+
+v2.25.1 (29.01.2023)
+O2 TV: opravena loga kanálů 
+
+v2.23.0 (11.01.2023)
+sledovanitv: přidány žánry 
+
+v2.22.0 (01.12.2022)
+- oprava chyb
+
+v2.21.0 (14.11.2022)
+- optimalizace
+
+v2.20.0 (23.10.2022)
+- nově nyní nastavení proměnných v souboru settings.py
+- možnost změnit název uloženého souboru 
+
+v2.19.0 (22.10.2022)
+- opraven zdroj SledovanieTV.sk, přidány ostatní kanály 
+
+v2.17.0 (04.09.2022)
+- oprava chyb
+
+v2.16.0 (28.08.2022)
+- zdroj SledovaniTV.cz přidány chybějící kanály 
+
+v2.14.0 (03.08.2022)
+- zdroj můjTVprogram přidán kanál Canal+ Sport (tvg-id="1040-canal+sport")
+
+v2.13.0 (14.07.2022)
+- opravena chyba u O2TV Sport kanálů
+
+v2.12.1 (13.06.2022)
+- Magio Go - oprava seznamu vlastních kanálů
+
+v2.12.0 (10.06.2022)
+- nový zdroj OTT Play a vybrané kanály (Penthouse Gold, Penthouse Quickies, Vivid Red, Super Tennis)
+
+v2.11.0 (06.06.2022)
+- přidány zdroje Magio Go, SledovanieTV.sk a TV Spiel
+- zdroj můjTVprogram - přidány vybrané německé kanály (většinou český popis pořadu)
+
+v2.9.0 (05.06.2022)
+- automatický časový posun
+- nový zdroj TV Spiel (pouze vybrané německé a rakouské sportovní kanály)
+
+v2.8.1 (10.05.2022)
+- zdroj O2 TV Sport přidány kanály O2 Sport, O2 Fotbal, O2 Tenis
+- zdroj mujTVprogram přidány kanály ORF1, ORF2 (český popis pořadů)
+
+v2.7.2 (30.04.2022)
+T-Mobile - opravená chyba (změna názvu kanálu "Trojka" na ":24")
