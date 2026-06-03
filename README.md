@@ -12,7 +12,7 @@ Python skript pro vygenerování XML souboru pro EPG (vyžaduje instalaci knihov
 
 <b>DONATE</b>
 
-<a href="https://www.paypal.me/petrsaros">PayPal</a>
+<a href="https://www.paypal.me/BalakMichal">PayPal</a>
 
-<a href="https://revolut.me/petrsarka">Revolut</a> (@petrsarka)
+<a href="https://revolut.me/michalwiv8">Revolut</a> (@michalwiv8)
 <p>
