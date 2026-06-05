@@ -6,6 +6,10 @@ Python skript pro vygenerování XML souboru pro EPG (vyžaduje instalaci knihov
 
 <p>
 
+Přidana možnost vytvoreni automatickeho textoveho souboru s tvg-name,tvg-id a IDS
+
+<p>
+
 <a href="https://www.xbmc-kodi.cz/showthread.php?pid=84767#pid84767">Fórum</a>
 
 <p>
