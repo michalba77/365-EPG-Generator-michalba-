@@ -1,4 +1,4 @@
-<h2>365 EPG Generator</h2>
+<h2>365 EPG Generator (michalba)</h2>
 
 <p>
 
