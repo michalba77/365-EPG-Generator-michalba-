@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-#v3.01.1
+#v3.01.2
 
 import logging
 logging.basicConfig(filename='log.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
