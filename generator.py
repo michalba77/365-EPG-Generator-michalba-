@@ -8,6 +8,7 @@ try:
     import sys
     import os
     import xmltv
+    import epg_info
     import requests
     import xml.etree.ElementTree as ET
     import unicodedata
@@ -19,6 +20,7 @@ try:
     import schedule
     from bs4 import BeautifulSoup
     from settings import*
+    
 except Exception as ex:
     print(ex)
     logging.error("365 EPG Generator - %s" % ex)
@@ -273,6 +275,7 @@ def main():
     programmes = []
     cchc = ""
     tm_id = ""
+    print("365 EPG Generator(michalba) ver." + str(VERZE) + "\n")
     if TV_SMS_CZ == 1:
         try:
             print("TV.SMS.cz kanály")
@@ -327,10 +330,16 @@ def main():
             for p in programmes:
                 w.addProgramme(p)
             w.write(fn, pretty_print=True)
+
+
+            if EPG_INFO_GEN == 1:
+                epg_info.generuj_prehled(channels, dn)
             sys.stdout.write('\x1b[1A')
             sys.stdout.write('\x1b[2K')
+
             now = datetime.now()
             dt = now.strftime("%d.%m.%Y %H:%M")
+
             if ftp_upload == 1:
                 try:
                     ftp = FTP()

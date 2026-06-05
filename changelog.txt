@@ -1,8 +1,15 @@
-v3.01.2 michalba(05.06.2026)
-Drobne upravy
+v3.02.0 (06.06.2026)
+-přidana možnost vytvoreni textoveho souboru s tvg-name,tvg-id a IDS. Nastaveni v settings.py
 
-v3.01.1 michalba(03.06.2026)
-Odstraneny nefunkcni grabery. Opraveno Magio.
+
+v3.01.2 (05.06.2026)
+- Drobne upravy
+
+v3.01.1 (03.06.2026)
+- Odstraneny nefunkcni grabery (O2 TV,SledovanieTV.cz/sk,můjTVprogram,OTT Play).
+- Opraveno Magio.
+
+*************************************************************************
 
 v2.25.1 (29.01.2023)
 O2 TV: opravena loga kanálů 

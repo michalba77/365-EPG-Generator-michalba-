@@ -1,4 +1,6 @@
 # Nastavení
+VERZE = "v3.02.0"
+
 # Počet dní (1-15)
 days = 1
 
@@ -12,13 +14,20 @@ TV_SMS_CZ = 1
 T_MOBILE_TV_GO = 1
 MAGIO_GO = 1
 
+# Generování přehledového textového souboru epg_info.txt
+# 1 = povolit
+# 0 = zakázat
+EPG_INFO_GEN = 0
+
 
 # Seznam vlastních kanálů
 # Seznam id kanálů oddělené čárkou (např.: "2,3,32,94")
 # Pro všechny kanály ponechte prázdné
-TV_SMS_CZ_IDS = ""
-T_MOBILE_TV_GO_IDS = ""
-MAGIO_GO_IDS = ""
+TV_SMS_CZ_IDS = "1,2"
+T_MOBILE_TV_GO_IDS = "4454"
+MAGIO_GO_IDS = "4239,4507"
+
+
 
 
 # název souboru
