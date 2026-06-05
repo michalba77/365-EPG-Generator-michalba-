@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
-# Tento skript původně vytvořil saros.
-# Tudíž je to jeho práce a nepřísluší mě si ho přivlastňovat.
-# Z důvodu dlouhé doby, kdy skript saros neupravoval přestali některé části fungovat.
-# Tyto části jsem odstranil a některé části jsem upravil.
-# Nyní je skript funkční.
-# Tento skript byl upraven uživatelem michalba.
+
 #v3.01.1
 
 import logging
@@ -251,6 +246,7 @@ class Get_programmes_sms:
                 next_day = now + timedelta(days = i)
                 date = next_day.strftime("%Y-%m-%d")
                 date_ = next_day.strftime("%d.%m.%Y")
+                print(f"Stahuji program pro den: {date_}")
                 headers = {"user-agent": "SMSTVP/1.7.3 (242;cs_CZ) ID/ef284441-c1cd-4f9e-8e30-f5d8b1ac170c HW/Redmi Note 7 Android/10 (QKQ1.190910.002)"}
                 print(date_)
                 html = requests.get("http://programandroid.365dni.cz/android/v6-program.php?datum=" + date + "&id_tv=" + chl, headers = headers).text
@@ -266,6 +262,7 @@ class Get_programmes_sms:
                         self.programmes_sms.append({"channel": ch[i.attrib["id_tv"]].replace("804-ct-art", "805-ct-:d"), "start": i.attrib["o"].replace("-", "").replace(":", "").replace(" ", "") + TS, "stop": i.attrib["d"].replace("-", "").replace(":", "").replace(" ", "") + TS, "title": [(n, "")], "desc": [(k, "")]})
                 sys.stdout.write('\x1b[1A')
                 print(date_ + "  OK")
+                time.sleep(0.5)
         print("\n")
         return self.programmes_sms
 
@@ -352,7 +349,6 @@ def main():
                 print("\n\nHotovo (" + dt + ")\n\n")
             else:
                 print("Hotovo\n\n")
-                print("Tento skript původně vytvořil saros. Tudíž je to jeho práce a nepřísluší mě si ho přivlastňovat. Z důvodu dlouhé doby, kdy skript saros neupravoval přestali některé části fungovat. Tyto části jsem odstranil a některé části jsem upravil. Nyní je skript funkční.  Tento skript byl upraven uživatelem michalba.")
                 input("Pro ukončení stiskněte libovolnou klávesu")
                 sys.exit(0)
         except Exception as ex:
