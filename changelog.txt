@@ -1,3 +1,6 @@
+v3.01.2 michalba(05.06.2026)
+Drobne upravy
+
 v3.01.1 michalba(03.06.2026)
 Odstraneny nefunkcni grabery. Opraveno Magio.
 
