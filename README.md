@@ -3,6 +3,7 @@
 <p>
 
 Python skript pro vygenerování XML souboru pro EPG (vyžaduje instalaci knihoven requests, bs4 a schedule)
+EPG pro : Magio TV, Magenta TV, SMS.cz
 
 <p>
 
